@@ -1,3 +1,4 @@
+/// @description coucou
 //Fin de partie
 if global.hp<=0
 {
