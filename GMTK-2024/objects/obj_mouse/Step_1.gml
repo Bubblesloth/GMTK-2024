@@ -1,2 +1,5 @@
-/// @description Insérez la description ici
-// Vous pouvez écrire votre code dans cet éditeur
+//Fin de partie
+if global.hp <=0
+{
+	game_restart();
+}

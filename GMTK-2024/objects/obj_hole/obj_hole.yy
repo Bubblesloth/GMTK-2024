@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_trap",
+  "%Name":"obj_hole",
   "eventList":[],
   "managed":true,
-  "name":"obj_trap",
+  "name":"obj_hole",
   "overriddenProperties":[],
   "parent":{
     "name":"Objets",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_hole",
+    "path":"sprites/s_hole/s_hole.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
