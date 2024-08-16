@@ -34,10 +34,12 @@
   },
   "name":"GMTK-2024",
   "resources":[
+    {"id":{"name":"FontTimer","path":"fonts/FontTimer/FontTimer.yy",},},
     {"id":{"name":"obj_cheeseWall","path":"objects/obj_cheeseWall/obj_cheeseWall.yy",},},
     {"id":{"name":"obj_GameManager","path":"objects/obj_GameManager/obj_GameManager.yy",},},
     {"id":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},},
     {"id":{"name":"obj_mouse","path":"objects/obj_mouse/obj_mouse.yy",},},
+    {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"obj_trap","path":"objects/obj_trap/obj_trap.yy",},},
     {"id":{"name":"Object5","path":"objects/Object5/Object5.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
