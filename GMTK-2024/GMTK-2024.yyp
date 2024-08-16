@@ -43,6 +43,7 @@
     {"id":{"name":"obj_prise","path":"objects/obj_prise/obj_prise.yy",},},
     {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"obj_trap","path":"objects/obj_trap/obj_trap.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"s_cheeseWall","path":"sprites/s_cheeseWall/s_cheeseWall.yy",},},
     {"id":{"name":"s_climbingGame","path":"sprites/s_climbingGame/s_climbingGame.yy",},},
     {"id":{"name":"s_hole","path":"sprites/s_hole/s_hole.yy",},},
@@ -52,7 +53,9 @@
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
-  "RoomOrderNodes":[],
+  "RoomOrderNodes":[
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
   "templateType":"game",
   "TextureGroups":[
     {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
