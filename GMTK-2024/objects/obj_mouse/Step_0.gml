@@ -1,6 +1,5 @@
-//@desc coucou
-// Vous pouvez écrire votre code dans cet étape
-
-if test==1{
-	y+=1
+//Fin de partie
+if global.hp<=0
+{
+	game_restart();
 }
