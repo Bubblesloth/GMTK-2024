@@ -1,7 +1,6 @@
+//@desc coucou
+// Vous pouvez écrire votre code dans cet étape
 
-// Vous pouvez écrire votre code dans cet écaca
-
-
-
-if test==1[
-draw_flush()qs
+if test==1{
+	y+=1
+}
