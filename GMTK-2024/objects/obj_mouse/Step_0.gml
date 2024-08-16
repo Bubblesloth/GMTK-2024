@@ -5,4 +5,4 @@ if a==b{
 	case}
 
 et j'écris justement...#endregion
-place_empty(x,y,z)
+place_empty(x,y,z+1)
