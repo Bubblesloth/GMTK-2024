@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mouse",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Object5",
+  "eventList":[],
   "managed":true,
-  "name":"obj_mouse",
+  "name":"Object5",
   "overriddenProperties":[],
   "parent":{
     "name":"Objets",
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_mouse",
-    "path":"sprites/s_mouse/s_mouse.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
