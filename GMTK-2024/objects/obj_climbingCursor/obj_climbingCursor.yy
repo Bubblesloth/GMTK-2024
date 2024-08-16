@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mouse",
+  "%Name":"obj_climbingCursor",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_mouse",
+  "name":"obj_climbingCursor",
   "overriddenProperties":[],
   "parent":{
     "name":"Objets",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_mouse",
-    "path":"sprites/s_mouse/s_mouse.yy",
+    "name":"s_climbingGame",
+    "path":"sprites/s_climbingGame/s_climbingGame.yy",
   },
   "spriteMaskId":null,
   "visible":true,

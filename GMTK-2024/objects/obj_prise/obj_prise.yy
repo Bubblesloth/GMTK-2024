@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object5",
+  "%Name":"obj_prise",
   "eventList":[],
   "managed":true,
-  "name":"Object5",
+  "name":"obj_prise",
   "overriddenProperties":[],
   "parent":{
     "name":"Objets",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_prise",
+    "path":"sprites/s_prise/s_prise.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
