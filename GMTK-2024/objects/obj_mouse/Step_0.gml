@@ -1,2 +1,7 @@
-/// @description je suis une souris
-// Vous pouvez écrire votre code dans cet éditeur
+
+// Vous pouvez écrire votre code dans cet écaca
+
+
+
+if test==1[
+draw_flush()qs
