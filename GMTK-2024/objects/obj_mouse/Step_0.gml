@@ -1,9 +1,9 @@
 /// @description coucou
 //Dégâts
-if global.time=0
+if global.hitTick = true
 {
 	global.hp=global.hp-1
-	global.time=15
+	global.hitTick = false
 }
 //Fin de partie
 if global.hp<=0
