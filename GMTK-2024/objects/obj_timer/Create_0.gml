@@ -1,2 +1,2 @@
-mytime=15
-showtime=mytime;
+global.time=15
+showtime=global.time;
