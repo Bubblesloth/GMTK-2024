@@ -3,3 +3,6 @@
 
 arrowdir = 0;
 angle = 90;
+
+mindir=20
+maxdir=160
