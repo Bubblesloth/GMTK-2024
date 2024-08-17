@@ -1,0 +1,1 @@
+pos=obj_mouse.y*(-1)
