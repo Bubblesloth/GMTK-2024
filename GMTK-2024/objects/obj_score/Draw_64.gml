@@ -1,3 +1,3 @@
 draw_set_font(FontScore);
 draw_set_color(c_black);
-draw_text(x,y,string(pos)+" cm")
+draw_text(50,50,string(pos)+" cm")
