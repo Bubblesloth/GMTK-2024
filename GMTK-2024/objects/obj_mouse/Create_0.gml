@@ -1,5 +1,6 @@
 /// @description coucou
 //Attribut du personnage
+invincible=false
 global.hp=3
 
 
