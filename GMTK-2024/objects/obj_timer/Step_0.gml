@@ -7,7 +7,7 @@ else{
 		global.time = global.startTime;
 		global.timerTick = true;
 		global.hitTick = true;
-		audio_play_sound(sfx_climbFail,1,false);;
+		audio_play_sound(sfx_climbFail,1,false);
 	}
 }
 
