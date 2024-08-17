@@ -35,6 +35,7 @@
   "name":"GMTK-2024",
   "resources":[
     {"id":{"name":"FontTimer","path":"fonts/FontTimer/FontTimer.yy",},},
+    {"id":{"name":"obj_cam","path":"objects/obj_cam/obj_cam.yy",},},
     {"id":{"name":"obj_cat","path":"objects/obj_cat/obj_cat.yy",},},
     {"id":{"name":"obj_cheeseWall","path":"objects/obj_cheeseWall/obj_cheeseWall.yy",},},
     {"id":{"name":"obj_circleArrow","path":"objects/obj_circleArrow/obj_circleArrow.yy",},},
