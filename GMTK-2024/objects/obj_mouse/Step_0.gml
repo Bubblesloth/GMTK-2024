@@ -32,6 +32,3 @@ if instance_exists(obj_prise){
 	x = lerp(x,global.mouseXpos,0.1)
 	y = lerp(y,global.mouseYpos,0.1)
 }
-
-//Caméra
-

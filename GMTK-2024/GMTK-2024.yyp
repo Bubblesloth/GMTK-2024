@@ -60,6 +60,7 @@
     {"id":{"name":"obj_rebord","path":"objects/obj_rebord/obj_rebord.yy",},},
     {"id":{"name":"obj_saw","path":"objects/obj_saw/obj_saw.yy",},},
     {"id":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},},
+    {"id":{"name":"obj_StartGame","path":"objects/obj_StartGame/obj_StartGame.yy",},},
     {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"objApplyShader","path":"objects/objApplyShader/objApplyShader.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
