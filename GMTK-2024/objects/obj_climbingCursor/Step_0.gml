@@ -14,9 +14,6 @@ if mouse_check_button_pressed(mb_left) && obj_priseSimu.can_be_placed == true{
 }
 else if mouse_check_button_pressed(mb_left){
 	global.failClimb = true;
-	global.time=global.startTime;
-	global.timerTick = true;
-	global.hitTick = true;
 }
 
 
