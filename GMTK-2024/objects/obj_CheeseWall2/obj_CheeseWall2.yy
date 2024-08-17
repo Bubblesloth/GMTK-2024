@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_HP",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_CheeseWall2",
+  "eventList":[],
   "managed":true,
-  "name":"obj_HP",
+  "name":"obj_CheeseWall2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objets",
@@ -32,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_HP",
-    "path":"sprites/s_HP/s_HP.yy",
+    "name":"s_CheeseWall2",
+    "path":"sprites/s_CheeseWall2/s_CheeseWall2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
