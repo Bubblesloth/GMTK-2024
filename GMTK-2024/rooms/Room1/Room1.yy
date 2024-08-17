@@ -137,6 +137,7 @@
     {"name":"inst_918217C","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_748240CE","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_961B8E6","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_7F978FE3","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -221,6 +222,7 @@
         {"$GMRInstance":"v1","%Name":"inst_918217C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_918217C","objectId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":1056.0,"y":481920.0,},
         {"$GMRInstance":"v1","%Name":"inst_748240CE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_748240CE","objectId":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":608.0,"y":482592.0,},
         {"$GMRInstance":"v1","%Name":"inst_961B8E6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_961B8E6","objectId":{"name":"obj_Mouche","path":"objects/obj_Mouche/obj_Mouche.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1120.0,"y":499552.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7F978FE3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7F978FE3","objectId":{"name":"obj_saw","path":"objects/obj_saw/obj_saw.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":499424.0,},
       ],"layers":[],"name":"obstacles","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"CheeseWall","depth":1100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_45529EED","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45529EED","objectId":{"name":"obj_cheeseWall","path":"objects/obj_cheeseWall/obj_cheeseWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":499616.0,},
