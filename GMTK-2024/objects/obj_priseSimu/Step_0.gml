@@ -20,3 +20,7 @@ else{
 
 image_alpha = 0.5;
 
+//Sprite
+image_index=global.spriteprise;
+
+
