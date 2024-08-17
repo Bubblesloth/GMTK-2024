@@ -2,3 +2,5 @@
 // Vous pouvez écrire votre code dans cet éditeur
 
 randomize()
+
+global.gameStarted = false
