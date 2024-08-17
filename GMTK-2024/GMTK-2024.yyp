@@ -38,6 +38,7 @@
   "name":"GMTK-2024",
   "resources":[
     {"id":{"name":"FontScore","path":"fonts/FontScore/FontScore.yy",},},
+    {"id":{"name":"FontStart","path":"fonts/FontStart/FontStart.yy",},},
     {"id":{"name":"FontTimer","path":"fonts/FontTimer/FontTimer.yy",},},
     {"id":{"name":"obj_cam","path":"objects/obj_cam/obj_cam.yy",},},
     {"id":{"name":"obj_cat","path":"objects/obj_cat/obj_cat.yy",},},
@@ -56,6 +57,7 @@
     {"id":{"name":"obj_Mouche","path":"objects/obj_Mouche/obj_Mouche.yy",},},
     {"id":{"name":"obj_mouse_pattounes","path":"objects/obj_mouse_pattounes/obj_mouse_pattounes.yy",},},
     {"id":{"name":"obj_mouse","path":"objects/obj_mouse/obj_mouse.yy",},},
+    {"id":{"name":"obj_Music","path":"objects/obj_Music/obj_Music.yy",},},
     {"id":{"name":"obj_placeArea","path":"objects/obj_placeArea/obj_placeArea.yy",},},
     {"id":{"name":"obj_prise","path":"objects/obj_prise/obj_prise.yy",},},
     {"id":{"name":"obj_priseSimu","path":"objects/obj_priseSimu/obj_priseSimu.yy",},},

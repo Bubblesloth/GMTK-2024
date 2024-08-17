@@ -1,4 +1,15 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
 
-draw_rectangle(0,500,room_width,600,false)
+if global.gameStarted == false{
+	draw_set_alpha(0.5)
+	draw_set_color(c_black);
+	draw_rectangle(0,350,room_width,300,false)
+	draw_set_alpha(1)
+
+	draw_set_halign(fa_center)
+	draw_set_valign(fa_middle)
+	draw_set_color(c_white)
+	draw_set_font(FontStart)
+	draw_text(room_width/2, 325, "Attach a hold to start helping the mouse")
+}

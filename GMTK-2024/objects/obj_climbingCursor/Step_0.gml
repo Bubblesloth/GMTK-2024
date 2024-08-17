@@ -11,6 +11,7 @@ if mouse_check_button_pressed(mb_left) && obj_priseSimu.can_be_placed == true{
 		global.timerTick = true;
 		dropped = true;
 		global.spriteprise= random_range(0,5)
+		global.gameStarted = true
 }
 else if mouse_check_button_pressed(mb_left){
 	global.failClimb = true;
