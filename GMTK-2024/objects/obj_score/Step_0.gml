@@ -1,1 +1,1 @@
-pos=obj_mouse.y*(-1)
+pos=obj_mouse.y*(-1)+627
