@@ -17,3 +17,6 @@ if instance_exists(obj_prise){
 	x = global.mouseXpos
 	y = global.mouseYpos
 }
+
+//Caméra
+
