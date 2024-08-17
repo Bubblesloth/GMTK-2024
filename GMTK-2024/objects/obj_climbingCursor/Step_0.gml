@@ -5,7 +5,7 @@ y = mouse_y;
 
 //Keyboard Input
 
-if mouse_check_button_pressed(mb_left) && !place_meeting(x,y, obj_hole) && place_meeting(x,y,obj_placeArea){
+if mouse_check_button_pressed(mb_left) && !place_meeting(x,y, obj_hole) && place_meeting(x,y,obj_placeArea) && !place_meeting(x,y, obj_rebord){
 		instance_create_layer(x,y,"prises",obj_prise);
 		global.time=global.startTime;
 		global.timerTick = true;
@@ -21,7 +21,7 @@ else if mouse_check_button_pressed(mb_left){
 
 //Sprites change
 
-if !place_meeting(x,y, obj_hole) && place_meeting(x,y,obj_placeArea) && dropped == false{
+if !place_meeting(x,y, obj_hole) && place_meeting(x,y,obj_placeArea)&& !place_meeting(x,y, obj_rebord) && dropped == false{
 	sprite_index = s_climbingCursorYes;
 }
 else if dropped == false{
