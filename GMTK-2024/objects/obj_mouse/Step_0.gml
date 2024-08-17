@@ -5,6 +5,11 @@ if global.hitTick = true
 	global.hp=global.hp-1
 	global.hitTick = false
 }
+if place_meeting(x,y,obj_saw)
+{
+	global.hp=global.hp-1
+	global.hitTick = false
+}
 //Fin de partie
 if global.hp<=0
 {
