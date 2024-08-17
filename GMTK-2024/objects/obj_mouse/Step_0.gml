@@ -12,6 +12,13 @@ if place_meeting(x,y,obj_saw) && invincible==false
 	invincible=true;
 	alarm[0]=global.startTime*60;
 }
+if place_meeting(x,y,obj_Mouche) && invincible==false
+{
+	global.hp=global.hp-1
+	global.hitTick = false
+	invincible=true;
+	alarm[0]=global.startTime*60;
+}
 //Fin de partie
 if global.hp<=0
 {
