@@ -5,7 +5,7 @@ image_angle = angle-90;*/
 //pos
 
 x=obj_circleArrow.x
-y=obj_circleArrow.y-10
+y=obj_circleArrow.y+35
 
 
 //		Génération aléatoire de la flèche

@@ -1,2 +1,2 @@
-/// @description Insérez la description ici
-// Vous pouvez écrire votre code dans cet éditeur
+image_xscale=0.4
+image_yscale=0.4
