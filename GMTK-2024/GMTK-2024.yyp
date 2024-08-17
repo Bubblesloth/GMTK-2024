@@ -37,6 +37,7 @@
   "resources":[
     {"id":{"name":"FontScore","path":"fonts/FontScore/FontScore.yy",},},
     {"id":{"name":"FontTimer","path":"fonts/FontTimer/FontTimer.yy",},},
+    {"id":{"name":"obj_Boomerang","path":"objects/obj_Boomerang/obj_Boomerang.yy",},},
     {"id":{"name":"obj_cam","path":"objects/obj_cam/obj_cam.yy",},},
     {"id":{"name":"obj_cat","path":"objects/obj_cat/obj_cat.yy",},},
     {"id":{"name":"obj_cheeseWall","path":"objects/obj_cheeseWall/obj_cheeseWall.yy",},},
@@ -57,6 +58,7 @@
     {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sfx_climbFail","path":"sounds/sfx_climbFail/sfx_climbFail.yy",},},
+    {"id":{"name":"s_Boomerang","path":"sprites/s_Boomerang/s_Boomerang.yy",},},
     {"id":{"name":"s_camera","path":"sprites/s_camera/s_camera.yy",},},
     {"id":{"name":"s_cat","path":"sprites/s_cat/s_cat.yy",},},
     {"id":{"name":"s_cheeseWall","path":"sprites/s_cheeseWall/s_cheeseWall.yy",},},
