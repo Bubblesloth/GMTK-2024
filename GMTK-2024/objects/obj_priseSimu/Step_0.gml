@@ -9,7 +9,7 @@ y = obj_climbingCursor.y
 
 //Can be placed
 
-if !place_meeting(x,y, obj_hole) && place_meeting(x,y,obj_placeArea) && !place_meeting(x,y,obj_rebord) && !place_meeting(x,y,obj_saw) && !place_meeting(x,y,obj_Mouche){
+if !place_meeting(x,y, obj_hole) && place_meeting(x,y,obj_placeArea) && !place_meeting(x,y,obj_rebord) && !place_meeting(x,y,obj_Mouche){
 	can_be_placed = true
 }
 else{

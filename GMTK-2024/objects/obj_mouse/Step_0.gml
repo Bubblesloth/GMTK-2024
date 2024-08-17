@@ -5,8 +5,9 @@ if global.hitTick = true
 	global.hp=global.hp-1
 	global.hitTick = false
 }
-if place_meeting(x,y,obj_saw) && invincible==false
+if place_meeting(x,y,obj_saw) && !place_meeting(x,y,lastSawInstance) && invincible==false
 {
+	lastSawInstance = instance_place(x,y,obj_saw)
 	global.hp=global.hp-1
 	global.hitTick = false
 	invincible=true;
