@@ -1,6 +1,6 @@
 //Position
 x=obj_mouse.x
-y=obj_mouse.y-300
+y=obj_mouse.y-180
 
 //Caméra
 halfViewWidth = camera_get_view_width(view_camera[0])/2;

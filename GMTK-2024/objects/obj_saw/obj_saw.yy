@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_trap",
+  "%Name":"obj_saw",
   "eventList":[],
   "managed":true,
-  "name":"obj_trap",
+  "name":"obj_saw",
   "overriddenProperties":[],
   "parent":{
     "name":"Objets",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_saw",
+    "path":"sprites/s_saw/s_saw.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
