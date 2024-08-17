@@ -35,6 +35,7 @@
   },
   "name":"GMTK-2024",
   "resources":[
+    {"id":{"name":"FontScore","path":"fonts/FontScore/FontScore.yy",},},
     {"id":{"name":"FontTimer","path":"fonts/FontTimer/FontTimer.yy",},},
     {"id":{"name":"obj_cam","path":"objects/obj_cam/obj_cam.yy",},},
     {"id":{"name":"obj_cat","path":"objects/obj_cat/obj_cat.yy",},},
@@ -49,6 +50,7 @@
     {"id":{"name":"obj_mouse","path":"objects/obj_mouse/obj_mouse.yy",},},
     {"id":{"name":"obj_placeArea","path":"objects/obj_placeArea/obj_placeArea.yy",},},
     {"id":{"name":"obj_prise","path":"objects/obj_prise/obj_prise.yy",},},
+    {"id":{"name":"obj_score","path":"objects/obj_score/obj_score.yy",},},
     {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"obj_trap","path":"objects/obj_trap/obj_trap.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
