@@ -1,4 +1,4 @@
 //pos
 
-x = obj_mouse.x 
-y = obj_mouse.y - 25
+x = obj_mouse.x
+y = obj_mouse.y - 40
