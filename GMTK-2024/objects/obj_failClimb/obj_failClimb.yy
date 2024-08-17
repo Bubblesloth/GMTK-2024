@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cat",
+  "%Name":"obj_failClimb",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_cat",
+  "name":"obj_failClimb",
   "overriddenProperties":[],
   "parent":{
     "name":"Objets",
@@ -29,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_cat",
-    "path":"sprites/s_cat/s_cat.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

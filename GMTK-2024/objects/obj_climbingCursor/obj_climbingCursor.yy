@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_climbingGame",
-    "path":"sprites/s_climbingGame/s_climbingGame.yy",
+    "name":"s_climbingCursorNo",
+    "path":"sprites/s_climbingCursorNo/s_climbingCursorNo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

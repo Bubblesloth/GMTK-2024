@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"s_climbingGame",
+  "%Name":"s_climbingCursorYes",
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":0,
@@ -12,28 +12,28 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0c8044a3-0449-4281-981e-61c7ccfae6d8","name":"0c8044a3-0449-4281-981e-61c7ccfae6d8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"be35b3cd-7aa8-4a77-b22d-4587606fab4c","name":"be35b3cd-7aa8-4a77-b22d-4587606fab4c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"68a15b93-9548-4e61-b4fe-a8c0240e7bb8","blendMode":0,"displayName":"default","isLocked":false,"name":"68a15b93-9548-4e61-b4fe-a8c0240e7bb8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"7983c586-6006-4823-b49e-029678c257bc","blendMode":0,"displayName":"default","isLocked":false,"name":"7983c586-6006-4823-b49e-029678c257bc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"s_climbingGame",
+  "name":"s_climbingCursorYes",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"s_climbingCursor",
+    "path":"folders/Sprites/s_climbingCursor.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"s_climbingGame",
+    "%Name":"s_climbingCursorYes",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"s_climbingGame",
+    "name":"s_climbingCursorYes",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0c8044a3-0449-4281-981e-61c7ccfae6d8","path":"sprites/s_climbingGame/s_climbingGame.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fad7cc66-dfa9-42c5-be1a-7ab42daff15e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"be35b3cd-7aa8-4a77-b22d-4587606fab4c","path":"sprites/s_climbingCursorYes/s_climbingCursorYes.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"47fea31e-ed1c-4b62-bd0f-6f83618bfab8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
