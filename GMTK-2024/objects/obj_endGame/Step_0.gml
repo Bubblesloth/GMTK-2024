@@ -1,3 +1,9 @@
 /// @description Et pas Avengers :3
-// Vous pouvez écrire votre code dans cet éditeur
 
+if keyboard_check(ord("W")){
+	global.win = false
+}
+
+if global.Win == true{
+	
+}
