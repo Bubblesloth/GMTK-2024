@@ -4,6 +4,7 @@
 randomize()
 
 global.gameStarted = false
+global.restart = false
 
 if room == Game{
 	instance_create_layer(x,y,"Utilitaires",obj_gameOver)

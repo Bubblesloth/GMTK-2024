@@ -3,7 +3,4 @@
 
 //DEATH
 
-if global.hp <=0{
-	room_goto(GameOver)
-}
-
+//moved in GameManager

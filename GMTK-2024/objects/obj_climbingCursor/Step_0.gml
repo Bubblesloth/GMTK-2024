@@ -50,7 +50,7 @@ if room == GameOver{
 	
 	if place_meeting(x,y,obj_restartButton) && mouse_check_button_pressed(mb_left){
 		//feedback
-		room_goto(Game);
+		global.restart = true
 	}
 
 }

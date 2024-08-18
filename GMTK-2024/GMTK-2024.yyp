@@ -146,7 +146,7 @@
     {"id":{"name":"s_restartButton","path":"sprites/s_restartButton/s_restartButton.yy",},},
     {"id":{"name":"s_saw","path":"sprites/s_saw/s_saw.yy",},},
     {"id":{"name":"s_Start","path":"sprites/s_Start/s_Start.yy",},},
-    {"id":{"name":"s_trans_sq","path":"sprites/s_trans_sq/s_trans_sq.yy",},},
+    {"id":{"name":"s_trans_circle","path":"sprites/s_trans_circle/s_trans_circle.yy",},},
     {"id":{"name":"s_Transition","path":"sprites/s_Transition/s_Transition.yy",},},
     {"id":{"name":"s_Transition2","path":"sprites/s_Transition2/s_Transition2.yy",},},
     {"id":{"name":"s_Transition3","path":"sprites/s_Transition3/s_Transition3.yy",},},
