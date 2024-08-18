@@ -7,6 +7,7 @@ y = mouse_y;
 
 if mouse_check_button_pressed(mb_left) && obj_priseSimu.can_be_placed == true{
 		instance_create_layer(x,y,"prises",obj_prise);
+		instance_create_layer(x,y,"Poof",obj_Poof);
 		global.time=global.startTime;
 		global.timerTick = true;
 		dropped = true;
