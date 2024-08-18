@@ -2,7 +2,7 @@
 // Vous pouvez écrire votre code dans cet éditeur
 
 if keyboard_check((ord("H"))){
-	if !instance_exists(obj_transition){
-		instance_create_layer(x,y, "Transition", obj_transition)
+	if !instance_exists(obj_transitionUI){
+		instance_create_layer(x,y, "TransitionUI", obj_transitionUI)
 	}
 }
