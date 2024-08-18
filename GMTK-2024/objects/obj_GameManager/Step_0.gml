@@ -10,3 +10,27 @@ if keyboard_check((ord("H"))){
 if keyboard_check_pressed(vk_space){
 	global.hp++
 }
+
+
+
+
+if keyboard_check(ord("F")){
+	global.mouseYpos = 0+1000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

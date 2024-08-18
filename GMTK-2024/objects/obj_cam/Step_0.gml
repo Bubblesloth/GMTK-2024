@@ -20,7 +20,7 @@ var _camY = obj_mouse.y - _camHeight/2;
 //No cam room borders
 
 _camX = clamp(_camX, 0, room_width - _camWidth); 
-_camY = clamp(_camY, 0, room_height - _camHeight);
+_camY = clamp(_camY, display_get_height()/2-790, room_height - _camHeight);
 
 //Set cam coo variables
 

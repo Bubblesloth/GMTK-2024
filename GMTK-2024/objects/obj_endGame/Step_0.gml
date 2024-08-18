@@ -1,9 +1,7 @@
 /// @description Et pas Avengers :3
 
-if keyboard_check(ord("W")){
-	global.win = true
-}
+//Déclencher WIN
 
-if global.Win == true{
-	
+if global.win == true{
+	room_goto(endGame)
 }

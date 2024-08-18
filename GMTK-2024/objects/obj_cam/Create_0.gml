@@ -1,3 +1,3 @@
 finalCamX = 0;
-finalCamY = 499230;
+finalCamY = room_height-800;
 camTrailSpd = .09;
