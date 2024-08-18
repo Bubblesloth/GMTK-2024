@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_LF2",
+  "%Name":"obj_LFR",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_LF2",
+  "name":"obj_LFR",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_LF",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_LF2",
-    "path":"sprites/s_LF2/s_LF2.yy",
+    "name":"s_LF",
+    "path":"sprites/s_LF/s_LF.yy",
   },
   "spriteMaskId":null,
   "visible":true,
