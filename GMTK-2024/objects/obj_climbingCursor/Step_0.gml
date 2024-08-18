@@ -52,4 +52,12 @@ if room == GameOver{
 		//feedback
 		room_goto(Game);
 	}
+
+}
+
+if room == Titre{
+	
+	image_alpha = 1
+	sprite_index = s_climbingCursorDropped	
+	
 }
