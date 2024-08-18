@@ -6,3 +6,7 @@ if keyboard_check((ord("H"))){
 		instance_create_layer(x,y, "TransitionUI", obj_transitionUI)
 	}
 }
+
+if keyboard_check_pressed(vk_space){
+	global.hp++
+}
