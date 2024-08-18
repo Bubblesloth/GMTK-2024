@@ -1,4 +1,3 @@
-
 global.mouseXpos = x
 global.mouseYpos = y+50
 
