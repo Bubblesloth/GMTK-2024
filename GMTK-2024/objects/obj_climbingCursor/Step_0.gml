@@ -5,6 +5,18 @@ y = mouse_y;
 
 //Keyboard Input
 
+if mouse_check_button_pressed(mb_left) && obj_priseSimu.can_be_placed == true{
+		instance_create_layer(x,y,"prises",obj_prise);
+		instance_create_layer(x,y,"Poof",obj_Poof);
+		global.time=global.startTime;
+		global.timerTick = true;
+		dropped = true;
+		global.spriteprise= random_range(0,5)
+		global.gameStarted = true
+}
+else if mouse_check_button_pressed(mb_left){
+	global.failClimb = true;
+}
 
 //Room Game
 if room == Game{

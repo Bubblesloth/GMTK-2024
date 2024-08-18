@@ -21,6 +21,21 @@ if place_meeting(x,y,obj_Mouche) && invincible==false
 	alarm[0]=global.startTime*60;
 }
 
+if place_meeting(x,y,obj_LF2) && invincible==false
+{
+	global.hp=global.hp-1
+	global.hitTick = false
+	invincible=true;
+	alarm[0]=global.startTime*60;
+}
+if place_meeting(x,y,obj_Gaz) && invincible==false
+{
+	global.hp=global.hp-1
+	global.hitTick = false
+	invincible=true;
+	alarm[0]=global.startTime*60;
+}
+
 //Déplacements
 
 if instance_exists(obj_prise){
