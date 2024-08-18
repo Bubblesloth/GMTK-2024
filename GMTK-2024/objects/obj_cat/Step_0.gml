@@ -28,3 +28,5 @@ if endHitAnim == true{
 		endHitAnim = false
 	}
 }
+//Changement de sprite
+image_index=global.time
