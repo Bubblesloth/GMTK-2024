@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_LanceFlamme",
-  "eventList":[],
+  "%Name":"obj_LF",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_LanceFlamme",
+  "name":"obj_LF",
   "overriddenProperties":[],
   "parent":{
     "name":"Objets",
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_LanceFlamme",
-    "path":"sprites/s_LanceFlamme/s_LanceFlamme.yy",
+    "name":"s_LF",
+    "path":"sprites/s_LF/s_LF.yy",
   },
   "spriteMaskId":null,
   "visible":true,
