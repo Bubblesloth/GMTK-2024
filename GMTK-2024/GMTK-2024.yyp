@@ -58,6 +58,8 @@
     {"id":{"name":"obj_dirArrow","path":"objects/obj_dirArrow/obj_dirArrow.yy",},},
     {"id":{"name":"obj_failClimb","path":"objects/obj_failClimb/obj_failClimb.yy",},},
     {"id":{"name":"obj_GameManager","path":"objects/obj_GameManager/obj_GameManager.yy",},},
+    {"id":{"name":"obj_gameOver","path":"objects/obj_gameOver/obj_gameOver.yy",},},
+    {"id":{"name":"obj_gameOverText","path":"objects/obj_gameOverText/obj_gameOverText.yy",},},
     {"id":{"name":"obj_Gaz","path":"objects/obj_Gaz/obj_Gaz.yy",},},
     {"id":{"name":"obj_Health","path":"objects/obj_Health/obj_Health.yy",},},
     {"id":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},},
@@ -81,6 +83,7 @@
     {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"objApplyShader","path":"objects/objApplyShader/objApplyShader.yy",},},
     {"id":{"name":"Game","path":"rooms/Game/Game.yy",},},
+    {"id":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
     {"id":{"name":"shader_Heat","path":"shaders/shader_Heat/shader_Heat.yy",},},
     {"id":{"name":"sfx_cantPlace","path":"sounds/sfx_cantPlace/sfx_cantPlace.yy",},},
     {"id":{"name":"sfx_climbFail","path":"sounds/sfx_climbFail/sfx_climbFail.yy",},},
@@ -117,6 +120,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Game","path":"rooms/Game/Game.yy",},},
+    {"roomId":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
