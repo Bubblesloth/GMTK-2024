@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_CheeseWall3",
+  "%Name":"obj_CheeseWall5",
   "eventList":[],
   "managed":true,
-  "name":"obj_CheeseWall3",
+  "name":"obj_CheeseWall5",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_CheeseWall",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_CheeseWall3",
-    "path":"sprites/s_CheeseWall3/s_CheeseWall3.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

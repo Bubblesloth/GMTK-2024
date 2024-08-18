@@ -6,8 +6,8 @@
   "name":"obj_CheeseWall2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objets",
-    "path":"folders/Objets.yy",
+    "name":"obj_CheeseWall",
+    "path":"folders/Objets/obj_CheeseWall.yy",
   },
   "parentObjectId":null,
   "persistent":false,

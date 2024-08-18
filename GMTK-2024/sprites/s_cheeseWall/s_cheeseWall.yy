@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"s_CheeseWall",
+    "path":"folders/Sprites/s_CheeseWall.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
