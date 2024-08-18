@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_CheeseWall5",
+    "path":"sprites/s_CheeseWall5/s_CheeseWall5.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
