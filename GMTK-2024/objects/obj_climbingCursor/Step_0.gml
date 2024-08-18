@@ -34,8 +34,8 @@ if room == Game{
 	if dropped == true{
 		sprite_index = s_climbingCursorDropped
 		if droppedanim >= 30{
-			dropped = false
-			droppedanim=0
+			dropped = false;
+			droppedanim=0;
 		}
 		else droppedanim++
 	}
@@ -45,7 +45,11 @@ if room == Game{
 //Room GameOver & Menu
 if room == GameOver{
 	
-	image_alpha = 1
-	sprite_index = s_climbingCursorDropped	
+	image_alpha = 1;
+	sprite_index = s_climbingCursorDropped	;
 	
+	if place_meeting(x,y,obj_restartButton) && mouse_check_button_pressed(mb_left){
+		//feedback
+		room_goto(Game);
+	}
 }
