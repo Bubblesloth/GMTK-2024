@@ -12,12 +12,12 @@ y=obj_circleArrow.y+35
 
 //Boader warning
 
-if obj_mouse.x < 160+200{
+if obj_mouse.x < 160+275{
 	maxdir = 90
 }
 else{
 	maxdir = 160
-	if obj_mouse.x > 1250-200{
+	if obj_mouse.x > 1250-275{
 		mindir = 90
 	}
 	else{
