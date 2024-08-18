@@ -13,6 +13,7 @@
     {"$GMFolder":"","%Name":"Chemins d'accès","folderPath":"folders/Chemins d'accès.yy","name":"Chemins d'accès","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Chronologies","folderPath":"folders/Chronologies.yy","name":"Chronologies","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Courbes d’animation","folderPath":"folders/Courbes d’animation.yy","name":"Courbes d’animation","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"catShakes","folderPath":"folders/Courbes d’animation/catShakes.yy","name":"catShakes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objets","folderPath":"folders/Objets.yy","name":"Objets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"GameOver","folderPath":"folders/Objets/GameOver.yy","name":"GameOver","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -47,6 +48,7 @@
   },
   "name":"GMTK-2024",
   "resources":[
+    {"id":{"name":"Shake","path":"animcurves/Shake/Shake.yy",},},
     {"id":{"name":"FontScore","path":"fonts/FontScore/FontScore.yy",},},
     {"id":{"name":"FontStart","path":"fonts/FontStart/FontStart.yy",},},
     {"id":{"name":"FontTimer","path":"fonts/FontTimer/FontTimer.yy",},},
