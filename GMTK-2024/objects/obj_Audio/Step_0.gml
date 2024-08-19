@@ -44,6 +44,12 @@ if instance_exists(obj_cat){
 	}
 }
 
+//Mouse Hurt
+
+if room == Game{
+	if global.hitTick == true audio_play_sound(mouseHurt,0,0)
+}
+
 //COMBOOO
 
 if obj_climbingCursor.COMBOOO == true{

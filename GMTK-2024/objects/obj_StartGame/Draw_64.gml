@@ -4,7 +4,7 @@
 if global.gameStarted == false{
 	draw_set_alpha(0.5)
 	draw_set_color(c_black);
-	draw_rectangle(300,350,room_width-300,300,false)
+	draw_rectangle(350,350,room_width-350,300,false)
 	draw_set_alpha(1)
 
 	draw_set_halign(fa_center)

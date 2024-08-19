@@ -61,3 +61,11 @@ if instance_exists(obj_prise){
 
 
 }
+
+// Invincibilité
+
+if invincible == true{
+	sprite_index = s_mouseHIT
+	obj_mouse_pattounes.visible = false
+}
+else obj_mouse_pattounes.visible = true
