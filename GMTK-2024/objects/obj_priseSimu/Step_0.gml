@@ -1,6 +1,11 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
 
+if global.win == true{
+	image_alpha = lerp(image_alpha,0,0.1)
+}
+else{
+
 //Pos
 
 x = obj_climbingCursor.x
@@ -22,3 +27,5 @@ image_alpha = 0.5;
 
 //Sprite
 image_index=global.spriteprise;
+
+}

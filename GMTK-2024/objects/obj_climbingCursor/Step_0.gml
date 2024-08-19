@@ -5,6 +5,14 @@ y = mouse_y;
 
 //COMBO
 
+//Room Game
+if room == Game{
+	if global.win == true{
+		image_alpha = lerp(image_alpha,0,0.1)
+	}
+else{
+
+
 switch(combo){
 	
 	case 0:
@@ -81,9 +89,6 @@ switch(combo){
 
 }
 
-//Room Game
-if room == Game{
-
 	if mouse_check_button_pressed(mb_left) && obj_priseSimu.can_be_placed == true{
 			instance_create_layer(x,y,"prises",obj_prise);
 			instance_create_layer(x,y,"Poof",obj_Poof);
@@ -125,6 +130,9 @@ if room == Game{
 
 }
 
+}
+
+
 //Room GameOver & Menu
 if room == GameOver{
 	
@@ -144,13 +152,6 @@ if room == Titre{
 	sprite_index = s_climbingCursorDropped	
 	
 }
-
-
-
-
-
-
-
 
 
 

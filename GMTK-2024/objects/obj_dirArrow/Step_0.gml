@@ -1,6 +1,10 @@
 /*angle = point_direction(x, y, mouse_x, mouse_y);
 image_angle = angle-90;*/
 
+if global.win == true{
+	instance_destroy()	
+}
+else{
 
 //pos
 
@@ -35,3 +39,7 @@ if global.timerTick == true{
 
 
 image_angle = angle-90;
+
+
+
+}

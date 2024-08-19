@@ -1,3 +1,12 @@
+
+if global.win == true{
+	image_alpha = lerp(image_alpha,0,0.1)
+}
+else{
+
+
+
+
 if global.hitTick == true{
 	startHitAnim = true
 }
@@ -81,3 +90,5 @@ switch(obj_timer.showtime){
 	break;
 }
 
+
+}

@@ -3,5 +3,5 @@
 //Déclencher WIN
 
 if global.win == true{
-	room_goto(endGame)
+
 }

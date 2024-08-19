@@ -1,5 +1,16 @@
 /// @description coucou
+
+if global.win == true{
+	if sprite_index == s_mouse{
+		image_index = 0
+	}
+	sprite_index = s_mouseEndingAnim
+	y = lerp(y,-150,0.01)
+}
+else{
+
 //Dégâts
+
 if global.hitTick = true
 {
 	global.hp=global.hp-1
@@ -38,4 +49,7 @@ if place_meeting(x,y,obj_Gaz) && invincible==false
 if instance_exists(obj_prise){
 	x = lerp(x,global.mouseXpos,0.1)
 	y = lerp(y,global.mouseYpos,0.1)
+}
+
+
 }
