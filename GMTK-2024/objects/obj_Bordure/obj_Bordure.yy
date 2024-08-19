@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_rebord",
+  "%Name":"obj_Bordure",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_rebord",
+  "name":"obj_Bordure",
   "overriddenProperties":[],
   "parent":{
     "name":"Objets",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_rebord",
-    "path":"sprites/s_rebord/s_rebord.yy",
+    "name":"s_Bordure",
+    "path":"sprites/s_Bordure/s_Bordure.yy",
   },
   "spriteMaskId":null,
   "visible":true,
