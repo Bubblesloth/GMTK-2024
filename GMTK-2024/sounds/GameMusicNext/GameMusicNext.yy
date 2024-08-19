@@ -20,6 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"GameMusicNext.ogg",
-  "type":0,
+  "type":1,
   "volume":0.2,
 }

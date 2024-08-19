@@ -2,7 +2,7 @@
 
 state = true; //true = OUT false = IN
 
-
+transitionPlaying = false
 spr = s_trans_circle;
 sprw = sprite_get_width(spr);
 sprh = sprite_get_height(spr);

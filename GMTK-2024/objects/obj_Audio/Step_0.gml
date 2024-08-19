@@ -122,6 +122,9 @@ if obj_climbingCursor.COMBOOO == true{
 	obj_climbingCursor.COMBOOO = false
 }
 
+//MUSIC
+
+//Game Music
 
 if global.gameStarted == true{
 	//Lancer Musique
@@ -143,10 +146,15 @@ audio_sound_gain(GameMusic,Music_gain,0)
 
 //lerp music
 
-if Music_gain == 0.2{
-	regain_volume = true
+if global.hp <= 0{
+	Music_gain = lerp(Music_gain,0,0.5)
 }
+else{
+	if Music_gain == 0.2{
+		regain_volume = true
+	}
 
-if regain_volume == true{
-	Music_gain = lerp(Music_gain,0.3,0.1)
+	if regain_volume == true{
+		Music_gain = lerp(Music_gain,0.3,0.1)
+	}
 }
