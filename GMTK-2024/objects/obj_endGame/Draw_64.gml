@@ -5,4 +5,10 @@ if global.win == true{
 		draw_text_ext_color(room_width/2, 500, "Thanks for playing <3", 0,30000,c_black,c_black,c_black,c_black,alpha)
 		alpha = lerp(alpha,1,0.01)
 	}
+	
+	
+	if timer >= 750{
+		global.credits = true
+	}
+	else timer++
 }

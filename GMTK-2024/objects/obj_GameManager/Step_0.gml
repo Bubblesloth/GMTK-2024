@@ -24,7 +24,14 @@ else if (global.restart == true){
 	}
 }
 
-
+if room ==  Game{
+	if global.win == true && global.credits == true{
+		if !instance_exists(obj_transitionUI){
+			var _inst = instance_create_layer(x,y, "TransitionUI", obj_transitionUI)
+			if room == endGame _inst.target_room = room else _inst.target_room = endGame
+		}
+	}
+}
 
 
 

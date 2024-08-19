@@ -3,3 +3,4 @@
 
 global.win = false
 alpha = 0
+timer = 0
