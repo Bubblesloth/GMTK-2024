@@ -31,11 +31,28 @@ else if (global.restart == true){
 
 //Cheat
 
+/*
 if keyboard_check(ord("F")){
 	global.mouseYpos = 0+1000
 }
+*/
+
+if keyboard_check(vk_up){
+	global.mouseYpos -= 50
+}
+
+if keyboard_check(vk_down){
+	global.mouseYpos += 50
+}
 
 
+if keyboard_check(vk_left){
+	global.mouseXpos -= 50
+}
+
+if keyboard_check(vk_right){
+	global.mouseXpos += 50
+}
 
 
 

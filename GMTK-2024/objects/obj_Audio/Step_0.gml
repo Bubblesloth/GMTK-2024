@@ -46,8 +46,8 @@ if instance_exists(obj_cat){
 //COMBOOO
 
 if obj_climbingCursor.COMBOOO == true{
-	var _COMBOOO = irandom_range(0,15)
-	switch(_COMBOOO){
+	COMBOOO = irandom_range(0,15)
+	switch(COMBOOO){
 		case 0:
 			audio_play_sound(COMBO0,2,false);
 		break;

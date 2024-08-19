@@ -30,4 +30,3 @@ if active_anim == true{
 	}
 		
 }
-
