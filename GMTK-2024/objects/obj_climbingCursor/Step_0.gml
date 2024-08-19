@@ -3,7 +3,83 @@
 x = mouse_x;
 y = mouse_y;
 
-//Keyboard Input
+//COMBO
+
+switch(combo){
+	
+	case 0:
+		var _comboSound = String0;
+	break;
+	
+	case 1:
+		var _comboSound = String1;
+	break;
+	
+	case 2:
+		var _comboSound = String2;
+	break;
+	
+	case 3:
+		var _comboSound = String3;
+	break;
+	
+	case 4:
+		var _comboSound = String4;
+	break;
+	
+	case 5:
+		var _comboSound = String5;
+	break;
+	
+	case 6:
+		var _comboSound = String6;
+	break;
+	
+	case 7:
+		var _comboSound = String7;
+	break;
+	
+	case 8:
+		var _comboSound = String8;
+	break;
+	
+	case 9:
+		var _comboSound = String9;
+	break;
+	
+	case 10:
+		var _comboSound = String10;
+	break;
+	
+	case 11:
+		var _comboSound = String11;
+	break;
+	
+	case 12:
+		var _comboSound = String12;
+	break;
+	
+	case 13:
+		var _comboSound = String13;
+	break;
+	
+	case 14:
+		var _comboSound = String14;
+	break;
+	
+	case 15:
+		var _comboSound = String15;
+	break;
+	
+	case 16:
+		var _comboSound = String16;
+	break;
+	
+	case 17:
+		var _comboSound = String17;
+	break;
+
+}
 
 //Room Game
 if room == Game{
@@ -16,9 +92,16 @@ if room == Game{
 			dropped = true;
 			global.spriteprise= random_range(0,5)
 			global.gameStarted = true
+			audio_play_sound(_comboSound,2,false)
+			if combo < 17 combo++
+			else{
+				combo = 0
+				COMBOOO = true
+			}
 	}
 	else if mouse_check_button_pressed(mb_left){
 		global.failClimb = true;
+		combo = 0
 	}
 
 
@@ -61,3 +144,14 @@ if room == Titre{
 	sprite_index = s_climbingCursorDropped	
 	
 }
+
+
+
+
+
+
+
+
+
+
+

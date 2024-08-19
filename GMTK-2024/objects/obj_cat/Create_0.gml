@@ -10,3 +10,5 @@ curveAsset = Shake;
 curvePosition = 0;
 curveSpeed = 0.1;
 catShake = 0
+
+catsound=0

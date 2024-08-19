@@ -4,3 +4,5 @@
 global.failClimb = false
 dropped = false
 droppedanim=0
+combo = 0
+COMBOOO = false
