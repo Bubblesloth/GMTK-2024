@@ -98,6 +98,7 @@ switch(combo){
 			global.spriteprise= random_range(0,5)
 			global.gameStarted = true
 			audio_play_sound(_comboSound,2,false)
+			obj_Audio.Music_gain = 0.2
 			if combo < 17 combo++
 			else{
 				combo = 0

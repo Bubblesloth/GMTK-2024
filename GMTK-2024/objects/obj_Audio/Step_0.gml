@@ -1,5 +1,6 @@
 /// @description Insérez la description ici
-// Vous pouvez écrire votre code dans cet éditeur
+
+
 
 //CatScream
 
@@ -113,4 +114,33 @@ if obj_climbingCursor.COMBOOO == true{
 		break;	
 	}
 	obj_climbingCursor.COMBOOO = false
+}
+
+
+if global.gameStarted == true{
+	//Lancer Musique
+	if room == Game{
+		if musicplaying	== false{
+			actualMusic = audio_play_sound(GameMusic,1,0);
+			musicplaying = true
+		}
+		else{
+			if audio_sound_get_track_position(actualMusic) >= 110{
+				GameMusic = GameMusicNext
+				musicplaying = false
+			}
+		}
+	}
+}
+
+audio_sound_gain(GameMusic,Music_gain,0)
+
+//lerp music
+
+if Music_gain == 0.2{
+	regain_volume = true
+}
+
+if regain_volume == true{
+	Music_gain = lerp(Music_gain,0.3,0.1)
 }

@@ -37,6 +37,14 @@ if place_meeting(x,y,obj_LF2) && invincible==false
 	invincible=true;
 	alarm[0]=global.startTime*60;
 }
+
+if place_meeting(x,y,obj_LFR2) && invincible==false
+{
+	global.hitTick = true
+	invincible=true;
+	alarm[0]=global.startTime*60;
+}
+
 if place_meeting(x,y,obj_Gaz) && invincible==false
 {
 	global.hitTick = true

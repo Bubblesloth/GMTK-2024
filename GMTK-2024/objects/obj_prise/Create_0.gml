@@ -11,5 +11,5 @@ image_index=global.spriteprise;
 //Detruire scie au placement
 
 if place_meeting(x,y,obj_saw){
-	instance_place(x,y,obj_saw).image_speed = 0
+	instance_place(x,y,obj_saw).sprite_index = s_brockenSaw
 }
