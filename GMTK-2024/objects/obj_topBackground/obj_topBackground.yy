@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_rebord",
-    "path":"sprites/s_rebord/s_rebord.yy",
+    "name":"s_TopBackground",
+    "path":"sprites/s_TopBackground/s_TopBackground.yy",
   },
   "spriteMaskId":null,
   "visible":true,
