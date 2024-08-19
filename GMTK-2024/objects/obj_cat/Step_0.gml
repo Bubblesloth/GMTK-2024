@@ -61,6 +61,7 @@ switch(obj_timer.showtime){
 		catsound=0
 	break;
 	case 3:
+		obj_climbingCursor.combo = 0
 		ecartsouris = 160;
 		image_index = 3;
 		catShake = _value*5;
@@ -68,6 +69,7 @@ switch(obj_timer.showtime){
 		catsound=1
 	break;
 	case 2:
+		obj_climbingCursor.combo = 0
 		ecartsouris = 140;
 		image_index = 2;
 		catShake = _value*10;
@@ -75,6 +77,7 @@ switch(obj_timer.showtime){
 		catsound=2
 	break;
 	case 1:
+		obj_climbingCursor.combo = 0
 		ecartsouris = 120;
 		image_index = 1;
 		catShake = _value*15;
@@ -82,6 +85,7 @@ switch(obj_timer.showtime){
 		catsound=3
 	break;
 	case 0:
+		obj_climbingCursor.combo = 0
 		ecartsouris = 110;
 		image_index = 0;
 		catShake = _value*20;
