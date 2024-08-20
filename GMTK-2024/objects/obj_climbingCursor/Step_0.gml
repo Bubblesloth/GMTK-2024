@@ -131,10 +131,11 @@ switch(combo){
 			global.time=global.startTime;
 			global.timerTick = true;
 			dropped = true;
-			global.spriteprise= random_range(0,5)
-			global.gameStarted = true
-			audio_play_sound(_comboSound,2,false)
-			obj_Audio.Music_gain = 0.2
+			global.spriteprise= random_range(0,5);
+			global.gameStarted = true;
+			audio_play_sound(_comboSound,2,false);
+			obj_Audio.Music_gain = 0.2;
+			//instance_create_layer(x,y,"cursoreffect",obj_clickEffect);
 			if combo < 17 combo++
 			else{
 				combo = 0
@@ -172,7 +173,10 @@ switch(combo){
 
 //Room GameOver & Menu
 if room == GameOver{
-	
+	if mouse_check_button_pressed(mb_left){
+		instance_create_layer(x,y,"cursoreffect",obj_clickEffect);
+	}
+
 	image_alpha = 1;
 	sprite_index = s_climbingCursorDropped;
 	
@@ -185,6 +189,10 @@ if room == GameOver{
 
 if room == Titre{
 	
+	if mouse_check_button_pressed(mb_left){
+		instance_create_layer(x,y,"cursoreffect",obj_clickEffect);
+	}
+	
 	image_alpha = 1
 	if place_meeting(x,y,obj_Start) && dropped = false{
 		sprite_index = s_climbingCursorYes
@@ -194,4 +202,4 @@ if room == Titre{
 }
 
 
-if mouse_check_button_pressed(mb_left) audio_play_sound(click,5,false)
+if mouse_check_button_pressed(mb_left) && room != Game audio_play_sound(click,5,false)
