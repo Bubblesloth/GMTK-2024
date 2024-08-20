@@ -152,6 +152,8 @@
     {"id":{"name":"Game_Music","path":"sounds/Game_Music/Game_Music.yy",},},
     {"id":{"name":"GameMusicNext","path":"sounds/GameMusicNext/GameMusicNext.yy",},},
     {"id":{"name":"GameOverTheme","path":"sounds/GameOverTheme/GameOverTheme.yy",},},
+    {"id":{"name":"hpfull","path":"sounds/hpfull/hpfull.yy",},},
+    {"id":{"name":"hpGain","path":"sounds/hpGain/hpGain.yy",},},
     {"id":{"name":"mouseHurt","path":"sounds/mouseHurt/mouseHurt.yy",},},
     {"id":{"name":"sfx_cantPlace","path":"sounds/sfx_cantPlace/sfx_cantPlace.yy",},},
     {"id":{"name":"sfx_catScream1","path":"sounds/sfx_catScream1/sfx_catScream1.yy",},},
