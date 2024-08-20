@@ -53,8 +53,8 @@
   "resources":[
     {"id":{"name":"LogoBounceCurve","path":"animcurves/LogoBounceCurve/LogoBounceCurve.yy",},},
     {"id":{"name":"Shake","path":"animcurves/Shake/Shake.yy",},},
-    {"id":{"name":"FontChrono","path":"fonts/FontChrono/FontChrono.yy",},},
     {"id":{"name":"StartBounceCurve","path":"animcurves/StartBounceCurve/StartBounceCurve.yy",},},
+    {"id":{"name":"FontChrono","path":"fonts/FontChrono/FontChrono.yy",},},
     {"id":{"name":"FontScore","path":"fonts/FontScore/FontScore.yy",},},
     {"id":{"name":"FontStart","path":"fonts/FontStart/FontStart.yy",},},
     {"id":{"name":"FontTimer","path":"fonts/FontTimer/FontTimer.yy",},},
