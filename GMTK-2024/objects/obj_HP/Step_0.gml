@@ -8,3 +8,8 @@ x=obj_mouse.x-50
 y=obj_mouse.y+20
 
 }
+
+
+if global.hp <= 0 {
+	instance_destroy()	
+}
