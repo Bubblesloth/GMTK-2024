@@ -7,3 +7,7 @@ Music_gain = 1
 regain_volume = false
 
 GameMusic = Game_Music
+
+if room == Game{
+	audio_stop_all()
+}
