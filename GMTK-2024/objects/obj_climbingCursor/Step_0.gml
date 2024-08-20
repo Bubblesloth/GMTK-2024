@@ -174,7 +174,7 @@ switch(combo){
 if room == GameOver{
 	
 	image_alpha = 1;
-	sprite_index = s_climbingCursorDropped	;
+	sprite_index = s_climbingCursorDropped;
 	
 	if place_meeting(x,y,obj_restartButton) && mouse_check_button_pressed(mb_left){
 		//feedback
@@ -186,6 +186,12 @@ if room == GameOver{
 if room == Titre{
 	
 	image_alpha = 1
-	sprite_index = s_climbingCursorDropped	
+	if place_meeting(x,y,obj_Start) && dropped = false{
+		sprite_index = s_climbingCursorYes
+	}
+	else sprite_index = s_climbingCursorDropped	
 	
 }
+
+
+if mouse_check_button_pressed(mb_left) audio_play_sound(click,5,false)

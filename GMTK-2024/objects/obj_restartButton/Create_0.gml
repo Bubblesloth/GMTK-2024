@@ -1,6 +1,3 @@
-gotoGame = false
-
-
 //Shake Curve
 
 curveAsset = StartBounceCurve;
