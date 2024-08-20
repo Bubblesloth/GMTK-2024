@@ -146,15 +146,17 @@ audio_sound_gain(GameMusic,Music_gain,0)
 
 //lerp music
 
-if global.hp <= 0{
-	Music_gain = lerp(Music_gain,0,0.5)
-}
-else{
-	if Music_gain == 0.2{
-		regain_volume = true
+if instance_exists(obj_mouse){
+	if global.hp <= 0{
+		Music_gain = lerp(Music_gain,0,0.5)
 	}
+	else{
+		if Music_gain == 0.2{
+			regain_volume = true
+		}
 
-	if regain_volume == true{
-		Music_gain = lerp(Music_gain,0.3,0.1)
+		if regain_volume == true{
+			Music_gain = lerp(Music_gain,0.3,0.1)
+		}
 	}
 }

@@ -51,7 +51,7 @@
   },
   "name":"GMTK-2024",
   "resources":[
-    {"id":{"name":"AnimationCurve2","path":"animcurves/AnimationCurve2/AnimationCurve2.yy",},},
+    {"id":{"name":"BounceCurve","path":"animcurves/BounceCurve/BounceCurve.yy",},},
     {"id":{"name":"Shake","path":"animcurves/Shake/Shake.yy",},},
     {"id":{"name":"FontScore","path":"fonts/FontScore/FontScore.yy",},},
     {"id":{"name":"FontStart","path":"fonts/FontStart/FontStart.yy",},},
