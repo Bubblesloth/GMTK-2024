@@ -53,6 +53,7 @@
   "resources":[
     {"id":{"name":"BounceCurve","path":"animcurves/BounceCurve/BounceCurve.yy",},},
     {"id":{"name":"Shake","path":"animcurves/Shake/Shake.yy",},},
+    {"id":{"name":"FontChrono","path":"fonts/FontChrono/FontChrono.yy",},},
     {"id":{"name":"FontScore","path":"fonts/FontScore/FontScore.yy",},},
     {"id":{"name":"FontStart","path":"fonts/FontStart/FontStart.yy",},},
     {"id":{"name":"FontTimer","path":"fonts/FontTimer/FontTimer.yy",},},
@@ -68,6 +69,7 @@
     {"id":{"name":"obj_CheeseWall3","path":"objects/obj_CheeseWall3/obj_CheeseWall3.yy",},},
     {"id":{"name":"obj_CheeseWall4","path":"objects/obj_CheeseWall4/obj_CheeseWall4.yy",},},
     {"id":{"name":"obj_CheeseWall5","path":"objects/obj_CheeseWall5/obj_CheeseWall5.yy",},},
+    {"id":{"name":"obj_Chrono","path":"objects/obj_Chrono/obj_Chrono.yy",},},
     {"id":{"name":"obj_circleArrow","path":"objects/obj_circleArrow/obj_circleArrow.yy",},},
     {"id":{"name":"obj_climbingCursor","path":"objects/obj_climbingCursor/obj_climbingCursor.yy",},},
     {"id":{"name":"obj_comboTex","path":"objects/obj_comboTex/obj_comboTex.yy",},},
