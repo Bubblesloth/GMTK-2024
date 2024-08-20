@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"sfx_cantPlace",
+  "%Name":"click",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.822109,
-  "name":"sfx_cantPlace",
+  "duration":0.115374,
+  "name":"click",
   "parent":{
     "name":"Sons",
     "path":"folders/Sons.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_cantPlace.ogg",
-  "type":1,
-  "volume":0.3,
+  "soundFile":"click.ogg",
+  "type":0,
+  "volume":1.0,
 }
