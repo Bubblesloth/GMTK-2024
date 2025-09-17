@@ -1,5 +1,5 @@
 {
-  "$GMSequence":"",
+  "$GMSequence":"v1",
   "%Name":"seq_bounce",
   "autoRecord":true,
   "backdropHeight":768,

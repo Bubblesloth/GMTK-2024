@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"GMTK-2024",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -44,11 +44,12 @@
     {"$GMFolder":"","%Name":"Titre","folderPath":"folders/Sprites/Titre.yy","name":"Titre","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile sets","folderPath":"folders/Tile sets.yy","name":"Tile sets","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"GMTK-2024",
   "resources":[
@@ -121,7 +122,6 @@
     {"id":{"name":"obj_Transition2","path":"objects/obj_Transition2/obj_Transition2.yy",},},
     {"id":{"name":"obj_Transition3","path":"objects/obj_Transition3/obj_Transition3.yy",},},
     {"id":{"name":"obj_Transition4","path":"objects/obj_Transition4/obj_Transition4.yy",},},
-    {"id":{"name":"obj_transitionUI","path":"objects/obj_transitionUI/obj_transitionUI.yy",},},
     {"id":{"name":"obj_transitionUI","path":"objects/obj_transitionUI/obj_transitionUI.yy",},},
     {"id":{"name":"obj_VictoryFlag","path":"objects/obj_VictoryFlag/obj_VictoryFlag.yy",},},
     {"id":{"name":"objApplyShader","path":"objects/objApplyShader/objApplyShader.yy",},},
